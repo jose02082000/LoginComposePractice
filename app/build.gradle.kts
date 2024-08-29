@@ -50,6 +50,10 @@ android {
 }
 
 dependencies {
+    //life cycle
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
+    // live data
+    implementation ("androidx.compose.runtime:runtime-livedata:1.2.1")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")
